@@ -4,8 +4,8 @@
 body {
   background: black;
 }
-/* INDEX */
 
+/* INDEX */
 #gallery {
   animation: fader 20s cubic-bezier(.75,0,.25,1) infinite;
 }
@@ -13,8 +13,6 @@ body {
   opacity: 0;
   width: 100%;
 }
-
-
 
 @keyframes fader {
   0% {background-image: url("../assets/images/splash/5.png"); background-size: cover;}
@@ -25,38 +23,37 @@ body {
 }
 
 .img-splash {
-  height: 100vh;
-  display: flex;
   align-items: center;
+  display: flex;
+  height: 100vh;
 }
-/*--------vista home---------*/
+
+/*-------- home---------*/
 
 .search-style {
   margin-left: 50%;
   
 }
 .style-nav {
-  height: 12vh;
   background-color: #666666;
- 
+  height: 12vh;
 }
 
 /* -------slider----------*/
 .style {
-  width: 22%;
   margin-left: 30%;
+  width: 22%;
 }
 .style-text {
   display: flex;
 }
 .style-info {
-  width: 80%;
-  margin: 5%;
   color: #000000;
+  margin: 5%;
+  width: 80%;
 }
 .border {
   background-color: #ffffff;
-  width: 30%;
- 
   border-radius: 0 10px 10px 0;
+  width: 30%;
 }
