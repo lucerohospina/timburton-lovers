@@ -1,33 +1,33 @@
+* {
+  outline: 1px solid red;
+}
 body {
-	background: black;
+  background: black;
 }
 /* INDEX */
+
+#gallery {
+  animation: fader 20s cubic-bezier(.75,0,.25,1) infinite;
+}
 .splash {
   opacity: 0;
   width: 100%;
 }
 
+
+
 @keyframes fader {
-  33.34% {background-image: url("../assets/images/splash/5.png"); background-size: cover;}
+  0% {background-image: url("../assets/images/splash/5.png"); background-size: cover;}
   50.01% {background-image: url("../assets/images/splash/4.png"); background-size: cover;}
   66.68% {background-image: url("../assets/images/splash/3.png"); background-size: cover;}
   83.35% {background-image: url("../assets/images/splash/2.png"); background-size: cover;}
   100% {background-image: url("../assets/images/splash/1.png"); background-size: cover;}
 }
 
-#wrapper {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-#gallery {
-  max-width: 900px;
-  border: thin black solid;
-  margin: 0 auto;
-  background: black;
-  animation: fader 10s cubic-bezier(.75,0,.25,1) infinite;
-  position: relative;
+.img-splash {
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 /*--------vista home---------*/
 
