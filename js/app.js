@@ -1,5 +1,5 @@
 $(document).ready(function() {
     setTimeout(function() { 
-      window.location.href = 'views/principal.html';
+      window.location.href = 'views/home.html';
     }, 11000);
   });
