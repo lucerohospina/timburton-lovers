@@ -1,26 +1,40 @@
 * {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
+
+@font-face {
+  font-family: "Alice";
+  src: url(../vendors/fonts/Alice-in-wonderland.ttf) format("truetype");
+}
+
 body {
   background: black;
 }
-/* INDEX */
+
+.alice {
+  font-family: "Alice";
+}
+
+/* ***************************INDEX****************************** */
 
 #gallery {
-  animation: fader 20s cubic-bezier(.75,0,.25,1) infinite;
+  animation: fader 10s cubic-bezier(.75,0,.25,1) infinite;
 }
+
 .splash {
   opacity: 0;
   width: 100%;
 }
 
-
+.logo {
+  height: 12vh;
+}
 
 @keyframes fader {
   0% {background-image: url("../assets/images/splash/5.png"); background-size: cover;}
-  50.01% {background-image: url("../assets/images/splash/4.png"); background-size: cover;}
-  66.68% {background-image: url("../assets/images/splash/3.png"); background-size: cover;}
-  83.35% {background-image: url("../assets/images/splash/2.png"); background-size: cover;}
+  25% {background-image: url("../assets/images/splash/4.png"); background-size: cover;}
+  50% {background-image: url("../assets/images/splash/3.png"); background-size: cover;}
+  75% {background-image: url("../assets/images/splash/2.png"); background-size: cover;}
   100% {background-image: url("../assets/images/splash/1.png"); background-size: cover;}
 }
 
@@ -29,34 +43,146 @@ body {
   display: flex;
   align-items: center;
 }
-/*--------vista home---------*/
 
+/* *************************HOME***************************** */
 .search-style {
   margin-left: 50%;
   
 }
+.navbar {
+  margin-bottom: 0;
+}
+
 .style-nav {
   height: 12vh;
-  background-color: #666666;
- 
+  background: rgb(94, 91, 91);
+
 }
 
 /* -------slider----------*/
-.style {
-  width: 22%;
-  margin-left: 30%;
+.skw-pages {
+  overflow: hidden;
+  position: relative;
+  height: 50vh;
 }
-.style-text {
+
+.skw-page {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.skw-page__half {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100vh;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+.skw-page__half--left {
+  left: 0;
+  -webkit-transform: translate3d(-32.4vh, 100%, 0);
+          transform: translate3d(-32.4vh, 100%, 0);
+}
+.skw-page__half--right {
+  left: 50%;
+  -webkit-transform: translate3d(32.4vh, -100%, 0);
+          transform: translate3d(32.4vh, -100%, 0);
+}
+.skw-page.active .skw-page__half {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.skw-page__skewed {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 140%;
+  height: 50%;
+  -webkit-transform: skewX(-18deg);
+          transform: skewX(-18deg);
+  background: #000;
+}
+.skw-page__half--left .skw-page__skewed {
+  left: -40%;
+}
+.skw-page__half--right .skw-page__skewed {
+  right: -40%;
+}
+.skw-page__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0% 5% 0% 15%;
+  color: #fff;
+  -webkit-transform: skewX(18deg);
+          transform: skewX(18deg);
+  -webkit-transition: opacity 1s, -webkit-transform 1s;
+  transition: opacity 1s, -webkit-transform 1s;
+  transition: transform 1s, opacity 1s;
+  transition: transform 1s, opacity 1s, -webkit-transform 1s;
+  background-size: cover;
 }
-.style-info {
-  width: 80%;
-  margin: 5%;
-  color: #000000;
+.skw-page__half--left .skw-page__content {
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
 }
-.border {
-  background-color: #ffffff;
-  width: 30%;
- 
-  border-radius: 0 10px 10px 0;
+.skw-page__half--right .skw-page__content {
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
 }
+.skw-page.inactive .skw-page__content {
+  opacity: 0.5;
+  -webkit-transform: skewX(18deg) scale(0.95);
+          transform: skewX(18deg) scale(0.95);
+}
+.skw-page__heading {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+}
+.skw-page__description {
+  font-size: 18px;
+  text-align: center;
+}
+.skw-page__link {
+  color: #FFA0A0;
+}
+.skw-page-1 .skw-page__half--left .skw-page__content {
+  background-image: url("http://cmonmurcia.com/wp-content/uploads/2017/06/tim.jpg");
+}
+.skw-page-1 .skw-page__half--right .skw-page__content {
+  background: #292929;
+}
+.skw-page-2 .skw-page__half--left .skw-page__content {
+  background: #292929;
+}
+.skw-page-2 .skw-page__half--right .skw-page__content {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/slider-2.jpg");
+}
+.skw-page-3 .skw-page__half--left .skw-page__content {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/mousover-img-2.jpg");
+}
+.skw-page-3 .skw-page__half--right .skw-page__content {
+  background: #292929;
+}
+
