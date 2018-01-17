@@ -18,20 +18,20 @@
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
           <img class="img-responsive logo" src="../assets/images/logo.png" alt="logo">
         </div>
     
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
+            <!--buscador-->
+            <div class="input-group">
+              <input type="text" class="form-control  textinput clearable" placeholder="Titulo de la pelicula">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">
+                  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                </button>
+              </span>
             </div>
           </form>
         </div><!-- /.navbar-collapse -->
@@ -39,55 +39,109 @@
     </nav>
 
     <div class="container">
-        <div class="row">
-            <div class="skw-pages">
-              <div class="skw-page skw-page-1 active">
-                <div class="skw-page__half skw-page__half--left">
-                  <div class="skw-page__skewed">
-                    <div class="skw-page__content"></div>
-                  </div>
-                </div>
-                <div class="skw-page__half skw-page__half--right">
-                  <div class="skw-page__skewed">
-                    <div class="skw-page__content">
-                      <h2 class="skw-page__heading alice">Skewed One Page Scroll</h2>
-                      <p class="skw-page__description">Just scroll down</p>
-                    </div>
-                  </div>
-                </div>
+      <!--vista slider para desktop-->
+      <div class="row  visible-md visible-lg">
+        <div class="skw-pages">
+          <div class="skw-page skw-page-1 active">
+            <div class="skw-page__half skw-page__half--left">
+              <div class="skw-page__skewed">
+                <div class="skw-page__content"></div>
               </div>
-              <div class="skw-page skw-page-2">
-                <div class="skw-page__half skw-page__half--left">
-                  <div class="skw-page__skewed">
-                    <div class="skw-page__content">
-                      <h2 class="skw-page__heading">Page 2</h2>
-                      <p class="skw-page__description">Nothing to do here, continue scrolling.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="skw-page__half skw-page__half--right">
-                  <div class="skw-page__skewed">
-                    <div class="skw-page__content"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="skw-page skw-page-3">
-                <div class="skw-page__half skw-page__half--left">
-                  <div class="skw-page__skewed">
-                    <div class="skw-page__content"></div>
-                  </div>
-                </div>
-                <div class="skw-page__half skw-page__half--right">
-                  <div class="skw-page__skewed">
-                    <div class="skw-page__content">
-                      <h2 class="skw-page__heading">Page 3</h2>
-                      <p class="skw-page__description">The end is near, I promise!</p>
-                    </div>
-                  </div>
+            </div>
+            <div class="skw-page__half skw-page__half--right">
+              <div class="skw-page__skewed">
+                <div class="skw-page__content">
+                  <h2 class="skw-page__heading alice">La palabra</h2>
+                  <h2 class="skw-page__heading alice">"normal"</h2>
+                  <h2 class="skw-page__heading alice">siempre me asusta</h2>
+                  <p class="skw-page__description alice">Frase célebre</p>
                 </div>
               </div>
             </div>
           </div>
+          <div class="skw-page skw-page-2">
+            <div class="skw-page__half skw-page__half--left">
+              <div class="skw-page__skewed">
+                <div class="skw-page__content">
+                  <h2 class="skw-page__heading alice">"cada vez que</h2>
+                  <h2 class="skw-page__heading alice">trabajo con él,</h2>
+                  <h2 class="skw-page__heading alice">parece la primera"</h2>
+                  <p class="skw-page__description alice">Tim ama a Johnny Deep</p>
+                </div>
+              </div>
+            </div>
+            <div class="skw-page__half skw-page__half--right">
+              <div class="skw-page__skewed">
+                <div class="skw-page__content"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skw-page skw-page-3">
+            <div class="skw-page__half skw-page__half--left">
+              <div class="skw-page__skewed">
+                <div class="skw-page__content"></div>
+              </div>
+            </div>
+            <div class="skw-page__half skw-page__half--right">
+              <div class="skw-page__skewed">
+                <div class="skw-page__content">
+                  <h2 class="skw-page__heading alice">Edward</h2>
+                  <h2 class="skw-page__heading alice">Scissorhands</h2>
+                  <p class="skw-page__description alice">Película trascendente</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--vista slider para mobile y tablet-->
+      <div class="row visible-xs visible-sm">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+            
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img class="img-responsive" src="https://cinepremiere-impresionesaerea.netdna-ssl.com/noticias/2017/07-julio/75329120141010012828.jpg" alt="...">
+                  <div class="carousel-caption">
+                    <h2 class="transparent black alice">La palabra "normal" 
+                      <br>siempre me asusta
+                    </h2>
+                  </div>
+                </div>
+                <div class="item">
+                  <img class="img-responsive" src="http://cinemaeafins.com/wp-content/uploads/sites/3/2017/08/A-Lenda-do-Cavaleiro-Sem-Cabe%C3%A7a.jpg" alt="...">
+                  <div class="carousel-caption">
+                    <h2 class="transparent black alice">Jhonny Deep</h2>
+                    <p class="transparent black alice">Trabajar con el se siente como la primera vez</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <img class="img-responsive" src="https://www.filmfad.com/wp-content/uploads/2015/10/Edward-Scissorhands-25th-anniversary.jpg" alt="...">
+                  <div class="carousel-caption">
+                    <h2 class="transparent black alice">Edward scissorhands</h2>
+                    <p class="transparent black alice">Pelicula trascendente</p>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+      </div>
+        
     </div>
   
   
