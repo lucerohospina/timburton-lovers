@@ -29,3 +29,34 @@ body {
   animation: fader 10s cubic-bezier(.75,0,.25,1) infinite;
   position: relative;
 }
+/*--------vista home---------*/
+
+.search-style {
+  margin-left: 50%;
+  
+}
+.style-nav {
+  height: 12vh;
+  background-color: #666666;
+ 
+}
+
+/* -------slider----------*/
+.style {
+  width: 22%;
+  margin-left: 30%;
+}
+.style-text {
+  display: flex;
+}
+.style-info {
+  width: 80%;
+  margin: 5%;
+  color: #000000;
+}
+.border {
+  background-color: #ffffff;
+  width: 30%;
+ 
+  border-radius: 0 10px 10px 0;
+}
