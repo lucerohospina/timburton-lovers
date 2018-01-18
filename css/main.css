@@ -3,6 +3,7 @@
 }
 body {
   background: black;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 /* INDEX */
@@ -57,3 +58,26 @@ body {
   border-radius: 0 10px 10px 0;
   width: 30%;
 }
+
+/* --------BIO ---------- */
+
+.main-h1 {
+  font-size: 4em;
+}
+
+.isearch {
+  position: absolute;
+  right: 5%;
+  top: 25%;
+}
+
+@media (max-width: 767px) {
+  .isearch {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+  }
+}
+
+
+
