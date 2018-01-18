@@ -216,9 +216,33 @@ body {
   height: 100vh;
 }
 
-/* ==========================================================================
-   Section Navigation
-   ========================================================================== */
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.section#section-one {
+  background-image: url('../assets/images/frankenweenie-bg.jpg');
+  
+}
+
+.section#section-two {
+  background-image: url('../assets/images/novia-bg.jpg');
+}
+
+.section#section-three {
+  background-image: url('../assets/images/edward-scisso.jpg');
+}
+
+.section#section-four {
+  background-image: url('../assets/images/pewee.jpg');
+  background-position: 100%;
+}
+
+.bg-t {
+  background-color: rgba(0,0,0,0.5); 
+}
 
 #section-menu {
   position: fixed;
@@ -233,6 +257,8 @@ body {
   display: block;
   color: white;
   text-decoration: none;
+  font-size: 16px;
+  padding: 10px 0;
 }
 
 .title-movie:hover {
@@ -241,7 +267,9 @@ body {
 }
 
 .cont-films {
-
+  height: 70vh;
+  display: flex;
+  align-items: center;
 }
 
 .touch #section-menu {
@@ -250,7 +278,7 @@ body {
 #section-menu ul {
   list-style: none;
 }
-#section-menu li {}
+
 #section-menu a {
   float: right;
   clear: both;
@@ -307,4 +335,20 @@ body {
 }
 #section-menu.freeze a.active span:before {
   display: none;
+}
+
+i.fa.fa-plus {
+  padding-left: 10px;
+}
+
+.nav__title {
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 970px) {
+  .cont-films {
+    height: 85vh;
+    display: flex;
+    align-items: flex-end;
+  }
 }
