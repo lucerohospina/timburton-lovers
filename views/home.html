@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Home</title>
   <!-- Latest compiled and minified CSS -->
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
   <link rel="stylesheet" href="../vendors/bootstrap-3-3.7-dist/css/bootstrap.min.css">
   <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../css/main.css">
@@ -27,9 +28,9 @@
           <form class="navbar-form navbar-right">
             <!--buscador-->
             <div class="input-group">
-              <input type="text" class="form-control  textinput clearable" placeholder="Titulo de la pelicula">
+              <input type="text" class="form-control textinput clearable" id="searchText" placeholder="Titulo de la pelicula">
               <span class="input-group-btn">
-                <button class="btn btn-default" type="button">
+                <button class="btn btn-default" id="searchForm" type="button">
                   <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                 </button>
               </span>
@@ -223,11 +224,20 @@
       </div>
     </div>
   </section>
-  </div>    
+  </div>   
+  <!--contenedor de peliculas buscadas por medio del INPUT search-->
+  <div class="container">
+    <div id="movies" class="row">
+      
+    </div>
+  </div> 
+  <!--FIN de contenedor-->
   <!-- jquery -->
   <script src="../vendors/js/jquery-3.2.1.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <!-- javascript -->
   <script src="../vendors/bootstrap-3-3.7-dist/js/bootstrap.min.js"></script>
+  <script src="../js/movies.js"></script>
   <script src="../js/home.js"></script>
 </body>
 </html>
