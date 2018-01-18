@@ -347,6 +347,7 @@ i.fa.fa-plus {
   h1.alice.text-center.white.title-movie-h1 {
     font-size: 70px;
     padding: 30px 0;
+    color: crimson;
   }
 }
 
@@ -389,4 +390,19 @@ i.fa.fa-plus {
   background-color: #00000096;
   font-size: 24px;
   font-weight: bolder;
+}
+.title-movie-h1 {
+  color: crimson;
+}
+.btn-navbar {
+  font-size: 25px;
+}
+.phrases {
+  font-size: 20px;
+    text-align: justify;
+    color: cadetblue;
+}
+.bio-title {
+  color: aquamarine;
+  font-family: 'Henny Penny', cursive;
 }

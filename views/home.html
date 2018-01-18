@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- - - - - - - - - - - - - CABEZA - - - - - - - - - - - -  -->
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +16,7 @@
 <!-- - - - - - - - - - - - - CUERPO - - - - - - - - - - - -  -->
 
 <body>
+
   <!-- - - - NAVBAR - - - -->
   <nav class="navbar navbar-inverse">
     <div class="container">
@@ -35,6 +35,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <form class="navbar-form navbar-right">
+            <ul class="nav navbar-nav">
+              <li><a class="alice btn-navbar" href="../views/bio.html">Biografía</a></li>
+            </ul>
+            
             <!--buscador-->
             <div class="input-group">
               <input type="text" class="form-control textinput clearable" id="searchText" placeholder="Titulo de la pelicula">
@@ -51,7 +55,7 @@
     </div>
     <!-- /.container-fluid -->
   </nav>
-
+  <!-- - - - SLIDER - - - -->
   <div class="container">
     <!--vista slider para desktop-->
     <div class="row  visible-md visible-lg">
@@ -157,6 +161,7 @@
     </div>
 
   </div>
+  <!-- - - - LINEA DE TIEMPO - - - -->
   <div>
     <nav id="section-menu">
       <ul></ul>
@@ -293,8 +298,8 @@
     </section>
   </div>
   <!-- - - - MODAL DE LAS PELICULAS - - - -->
-  <div class="modal fade" id="movie-modal" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
+  <div class="modal fade bs-example-modal-sm" id="movie-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm" role="document">
       <div class="modal-content">
       </div>
       <!-- /.modal-content -->
