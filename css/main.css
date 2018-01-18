@@ -48,7 +48,7 @@ body {
 /* *************************HOME***************************** */
 .search-style {
   margin-left: 50%;
-  
+
 }
 .navbar {
   margin-bottom: 0;
@@ -179,7 +179,7 @@ body {
 }
 .skw-page-2 .skw-page__half--left .skw-page__content {
   background: linear-gradient(rgba(32, 31, 31, 0.25), rgba(11, 221, 236, 0.35), rgba(35, 37, 35, 0.42));
-  
+
 }
 .skw-page-2 .skw-page__half--right .skw-page__content {
   background-image: url("http://33.media.tumblr.com/f6352d8dc0d1be3696a31ac9d45d0294/tumblr_nhinnoDSLq1rp0vkjo1_500.gif");
@@ -217,7 +217,7 @@ body {
 
 .section#section-one {
   background-image: url('../assets/images/frankenweenie-bg.jpg');
-  
+
 }
 
 .section#section-two {
@@ -230,11 +230,11 @@ body {
 
 .section#section-four {
   background-image: url('../assets/images/pewee.jpg');
-  background-position: 100%;
+  background-position: 40%;
 }
 
 .bg-t {
-  background-color: rgba(0,0,0,0.5); 
+  background-color: rgba(0,0,0,0.5);
 }
 
 #section-menu {
@@ -343,6 +343,11 @@ i.fa.fa-plus {
     height: 85vh;
     display: flex;
     align-items: flex-end;
+  }
+
+  h1.alice.text-center.white.title-movie-h1 {
+    font-size: 70px;
+    padding-top: 60px;
   }
 }
 
