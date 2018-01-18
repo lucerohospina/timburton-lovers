@@ -353,3 +353,34 @@ i.fa.fa-plus {
 .alice {
   font-family: 'Henny Penny', cursive;
 }
+.modal-header {
+  background-image: url(../assets/images/mod1.jpg);
+  background-size: cover;
+  text-align: center;
+  color: rgb(15, 228, 200);
+}
+.modal-title {
+  background-color: #00000096;
+  font-size: 36px;
+  font-weight: bolder;
+  font-family: 'Henny Penny', cursive;
+}
+.modal-body {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  background-color: #1f1c1c;
+
+}
+.modal-footer {
+  text-align: center;
+  background-image: url(../assets/images/mod1.jpg);
+  background-size: cover;
+  text-align: center;
+  color: rgb(15, 228, 200);
+}
+.modal-p {
+  background-color: #00000096;
+  font-size: 24px;
+  font-weight: bolder;
+}
