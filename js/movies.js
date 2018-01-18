@@ -18,16 +18,20 @@ function getMovies(searchText) {
         if (movie === response.data) {
           console.log(index + ':' + movie);
           output += `
-        <div class="col-md-3">
-        <div class="well text-center">
-          <img src="${movie.Poster}">
-          <h5>${movie.Title}</h5>
+          <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">${movie.Title}</h4>
         </div>
-      </div>
+        <div class="modal-body text-center">
+          <img src="${movie.Poster}">
+        </div>
+        <div class="modal-footer">
+          <p>${movie.Year}
+        </div>
         `;
         }
       });
-      $('#movies').html(output);
+      $('.modal-content').html(output);
     }).catch(function(error) {
       console.log(error);
     }); 

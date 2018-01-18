@@ -30,7 +30,7 @@
             <div class="input-group">
               <input type="text" class="form-control textinput clearable" id="searchText" placeholder="Titulo de la pelicula">
               <span class="input-group-btn">
-                <button class="btn btn-default" id="searchForm" type="button">
+                <button class="btn btn-default" id="searchForm" data-toggle="modal" data-target="#movie-modal" type="button">
                   <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                 </button>
               </span>
@@ -159,7 +159,7 @@
       <div class="cont-films">
         <div class="col-xs-9 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 bg-t">
           <h3 class="nav__title white">2010 - Actualidad</h3>
-          <a class="title-movie" href="#">El hogar de miss Peregrine (2016) <i class="fa fa-plus" aria-hidden="true"></i></a>
+          <a class="title-movie" href="#" value="peregrine">El hogar de miss Peregrine (2016) <i class="fa fa-plus open-movie-modal" aria-hidden="true"></i></a>
           <a class="title-movie" href="#">Big eyes (2014) <i class="fa fa-plus" aria-hidden="true"></i></a>
           <a class="title-movie" href="#">Night of the Living (2013) <i class="fa fa-plus" aria-hidden="true"></i></a>
           <a class="title-movie" href="#">Frankenweenie (2012) <i class="fa fa-plus" aria-hidden="true"></i></a>
@@ -234,13 +234,17 @@
     </div>
   </section>
   </div>   
-  <!--contenedor de peliculas buscadas por medio del INPUT search-->
-  <div class="container">
-    <div id="movies" class="row">
-      
-    </div>
-  </div> 
-  <!--FIN de contenedor-->
+
+  <!--movie-modal-->
+  <div class="modal fade" id="movie-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <!--END of movie-modal-->
+
   <!-- jquery -->
   <script src="../vendors/js/jquery-3.2.1.min.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
