@@ -23,7 +23,7 @@ function getMovies(searchText) {
           <h4 class="modal-title">${movie.Title}</h4>
         </div>
         <div class="modal-body text-center">
-          <img src="${movie.Poster}">
+          <img class="img-responsive" src="${movie.Poster}">
         </div>
         <div class="modal-footer">
           <p>${movie.Year}
