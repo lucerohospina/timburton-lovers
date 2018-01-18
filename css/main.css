@@ -9,6 +9,7 @@
 
 body {
   background: black;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .alice {
@@ -17,6 +18,7 @@ body {
 
 /* ***************************INDEX****************************** */
 
+/* INDEX */
 #gallery {
   animation: fader 10s cubic-bezier(.75,0,.25,1) infinite;
 }
@@ -47,9 +49,9 @@ body {
 }
 
 .img-splash {
-  height: 100vh;
-  display: flex;
   align-items: center;
+  display: flex;
+  height: 100vh;
 }
 
 /* *************************HOME***************************** */
