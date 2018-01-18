@@ -1,19 +1,10 @@
 * {
-  /* outline: 1px solid red;*/
-}
-
-@font-face {
-  font-family: "Alice";
-  src: url(../vendors/fonts/Alice-in-wonderland.ttf) format("truetype");
+  /*outline: 1px solid red;*/
 }
 
 body {
   background: black;
   font-family: 'Gloria Hallelujah', cursive;
-}
-
-.alice {
-  font-family: "Alice";
 }
 
 /* ***************************INDEX****************************** */
@@ -170,7 +161,7 @@ body {
 .skw-page__heading {
   margin-bottom: 15px;
   text-transform: uppercase;
-  font-size: 292%;
+  font-size: 250%;
   text-align: center;
 }
 .skw-page__description {
@@ -358,4 +349,8 @@ i.fa.fa-plus {
     font-size: 70px;
     padding-top: 60px;
   }
+}
+
+.alice {
+  font-family: 'Henny Penny', cursive;
 }
