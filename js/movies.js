@@ -26,7 +26,7 @@ function getMovies(searchText) {
           <img class="img-responsive" src="${movie.Poster}">
         </div>
         <div class="modal-footer">
-          <p>${movie.Year}
+          <p class="modal-p">${movie.Year}
         </div>
         `;
         }
