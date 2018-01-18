@@ -52,7 +52,7 @@ Para validar la idea se empleó una encuesta a 25 personas para conocer preferen
 
   1. Emplear el API de Open Movie Database (OMDB) para manipular data de películas.
 
-  2. Presentar el proyecto en un link que no sea un local host).
+  2. Presentar el proyecto en un link (que no sea un local host).
 
   3. Trabajar colaborativamente en [github](https://github.com/AnaLorenaDiaz/timburton-lovers).
 
