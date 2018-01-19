@@ -6,6 +6,7 @@ $(document).ready(function() {
     event.preventDefault();
   });
 
+  // Evento del input search con modal
   function getMovies(searchText) {
     console.log(searchText);
     axios.get('https://www.omdbapi.com/?t=' + searchText + '&apikey=3a181f1c')
@@ -36,8 +37,10 @@ $(document).ready(function() {
       }); 
   }
   
+  // evento click a los titulos de las peliculas
   $('.open-movie-modal').on('click', movieModal);
   
+  // funcion para el evento click de los titulos delas peliculas con modal
   function movieModal(event) {
     console.log(event.target);
     var anchorElement = event.target;
