@@ -203,7 +203,7 @@ $(document).ready(function() {
             </div>
           </div>
           <div class="modal-footer">
-            <p class="modal-p"><a href="${movie.Website}">Web Oficial de la pelicula</a></p>
+            <p class="modal-p"><a href="${movie.Website}" target="_blank">Web Oficial de la pelicula</a></p>
           </div>
           `;
           } else if (movie === response.data && movie.Director !== 'Tim Burton') {
@@ -214,7 +214,7 @@ $(document).ready(function() {
             <img class="img-responsive" src="assets/images/esh.gif">
           </div>
           <div class="modal-footer">
-           <p class="modal-p"><a href="views/bio.html" target="_blank">Bio de Tim Burton</a></p>
+           <p class="modal-p">Aquí somos Tim Burton Lovers! <span class="glyphicon glyphicon-heart" aria-hidden="true"></span></p>
           </div>
           `;
           }
@@ -263,7 +263,7 @@ $(document).ready(function() {
             </div>
           </div>
           <div class="modal-footer">
-            <p class="modal-p"><a href="${movie.Website}">Web Oficial de la pelicula</a></p>
+            <p class="modal-p"><a href="${movie.Website}" target="_blank">Web Oficial de la pelicula</a></p>
           </div>
           `;
           }
