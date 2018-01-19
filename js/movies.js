@@ -19,14 +19,14 @@ $(document).ready(function() {
             console.log(index + ':' + movie);
             output += `
             <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <button type="button" class="white close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title">${movie.Title}</h4>
           </div>
           <div class="modal-body text-center">
             <img class="img-responsive" src="${movie.Poster}">
           </div>
           <div class="modal-footer">
-            <p>${movie.Year}
+            <p class="modal-p">${movie.Year}
           </div>
           `;
           }
@@ -58,14 +58,14 @@ $(document).ready(function() {
             console.log(index + ':' + movie);
             output += `
             <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <button type="button" class="white close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title">${movie.Title}</h4>
           </div>
           <div class="modal-body text-center">
-            <img src="${movie.Poster}">
+            <img class="img-responsive" src="${movie.Poster}">
           </div>
           <div class="modal-footer">
-            <p>${movie.Year}
+            <p class="modal-p">${movie.Year}
           </div>
           `;
           }
