@@ -294,7 +294,7 @@ body {
 #section-menu a:hover,
 #section-menu a:focus {
   background: rgba(0,0,0,0.75);
-  font-size: 1.2em;
+  font-size: 2em;
 }
 #section-menu a span {
   display: none;
@@ -403,10 +403,23 @@ i.fa.fa-plus {
     color: cadetblue;
 }
 .bio-title {
-  color: aquamarine;
+  color: rgb(117, 163, 148);
   font-family: 'Henny Penny', cursive;
 }
 
+.mod-info {
+  color: wheat;
+}
+
+.mod-subtitle {
+  color: aquamarine;
+}
+.floral {
+  color: floralwhite;
+}
+.chartreuse {
+  color: chartreuse;
+}
 /* #time-lapse,
 #home-slider, 
 #home-navigator {

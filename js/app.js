@@ -190,20 +190,20 @@ $(document).ready(function() {
             <h4 class="modal-title">${movie.Title}</h4>
           </div>
           <div class="modal-body">
-            <div class="row">
-              <img class="col-xs-12 col-sm-6" src="${movie.Poster}">
-              <div class="col-xs-12 col-sm-6">
-                <p>Actores Pincipales: <span>${movie.Actors}</span></p>
-                <p>Director: <span>${movie.Director}</span></p>
-                <p>Género: <span>${movie.Genre}</span></p>
-                <p>Trama: <span>${movie.Plot}</span></p>
-                <p>Fecha de estreno: <span>${movie.Releases}</span></p>
-                <p>Duración: <span>${movie.Runtime}</span></p>
-              </div>
-            </div>
+          <div class="row">
+          <img class="col-xs-12 col-sm-6" src="${movie.Poster}">
+          <div class="col-xs-12 col-sm-6">
+            <p class="mod-subtitle">Actores Pincipales: <span class="mod-info">${movie.Actors}</span></p>
+            <p class="mod-subtitle">Género: <span class="mod-info">${movie.Genre}</span></p>
+            <p class="mod-subtitle">Director: <span class="mod-info">${movie.Director}</span></p>
+            <p class="mod-subtitle">Trama: <span class="mod-info">${movie.Plot}</span></p>
+            <p class="mod-subtitle">Fecha de estreno: <span class="mod-info">${movie.Releases}</span></p>
+            <p class="mod-subtitle">Duración: <span class="mod-info">${movie.Runtime}</span></p>
+          </div>
+        </div>
           </div>
           <div class="modal-footer">
-            <p class="modal-p"><a href="${movie.Website}" target="_blank">Web Oficial de la pelicula</a></p>
+          <p class="modal-p"><a class="floral" href="${movie.Website}" target="_blank">Web Oficial de la pelicula</a></p>
           </div>
           `;
           } else if (movie === response.data && movie.Director !== 'Tim Burton') {
@@ -214,7 +214,7 @@ $(document).ready(function() {
             <img class="img-responsive" src="assets/images/esh.gif">
           </div>
           <div class="modal-footer">
-           <p class="modal-p">Aquí somos Tim Burton Lovers! <span class="glyphicon glyphicon-heart" aria-hidden="true"></span></p>
+          <p class="modal-p chartreuse">Aquí somos Tim Burton Lovers! <span class="glyphicon glyphicon-heart" aria-hidden="true"></span></p>
           </div>
           `;
           }
@@ -253,17 +253,21 @@ $(document).ready(function() {
             <div class="row">
               <img class="col-xs-12 col-sm-6" src="${movie.Poster}">
               <div class="col-xs-12 col-sm-6">
-                <p>Actores Pincipales: <span>${movie.Actors}</span></p>
-                <p>Director: <span>${movie.Director}</span></p>
-                <p>Género: <span>${movie.Genre}</span></p>
-                <p>Trama: <span>${movie.Plot}</span></p>
-                <p>Fecha de estreno: <span>${movie.Releases}</span></p>
-                <p>Duración: <span>${movie.Runtime}</span></p>
+                <p class="mod-subtitle">Actores Pincipales: <span class="mod-info">${movie.Actors}</span></p>
+                <p class="mod-subtitle">Género: <span class="mod-info">${movie.Genre}</span></p>
+                <p class="mod-subtitle">Director: <span class="mod-info">${movie.Director}</span></p>
+                <p class="mod-subtitle">Trama: <span class="mod-info">${movie.Plot}</span></p>
+                <p class="mod-subtitle">Fecha de estreno: <span class="mod-info">${movie.Releases}</span></p>
+                <p class="mod-subtitle">Duración: <span class="mod-info">${movie.Runtime}</span></p>
               </div>
             </div>
           </div>
           <div class="modal-footer">
+<<<<<<< HEAD
             <p class="modal-p"><a href="${movie.Website}" target="_blank">Web Oficial de la pelicula</a></p>
+=======
+          <p class="modal-p"><a class="floral" href="${movie.Website}" target="_blank">Web Oficial de la pelicula</a></p>
+>>>>>>> upstream/master
           </div>
           `;
           }
