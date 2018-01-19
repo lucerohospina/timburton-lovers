@@ -400,10 +400,10 @@ i.fa.fa-plus {
 .phrases {
   font-size: 20px;
     text-align: justify;
-    color: cadetblue;
+    color: aquamarine;
 }
 .bio-title {
-  color: rgb(117, 163, 148);
+  color: bisque;
   font-family: 'Henny Penny', cursive;
 }
 
@@ -420,6 +420,7 @@ i.fa.fa-plus {
 .chartreuse {
   color: chartreuse;
 }
+
 /* #time-lapse,
 #home-slider, 
 #home-navigator {
