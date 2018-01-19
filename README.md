@@ -22,17 +22,49 @@ Para validar la idea se empleó una encuesta a 25 personas para conocer preferen
 
 ![Con titulo](assets/docs/trello.png "Vista Splash")
 
-#### Planificación:
+#### Detalle de tareas asignadas:
 
 + Martes 16 de enero de 2018
 
-| Actividad  | Encargada  |
-| ---------- | ---------- |
-| Ideación y sketch del proyecto. | Todas  |
-| Crea repositorio con estructura de archivos y carpetas.   | Ana Lorena   |
-| Investigar para desarrollar línea de tiempo. | Tahirih   |
-| Avance Readme, iniciar maquetación vista bio. | Lucero  |
-| Inicia maquetación vista home.  | Patricia   |
+| Actividad  | Tiempo | Encargadas  |
+| ---------- | ---------- | ---------- |
+| Ideación y sketch del proyecto. Definición de la temática del producto. | 8:30 a 10:30 a.m.  | Todo el equipo  |
+| Crea repositorio con estructura de archivos y carpetas. Inicia desarrollo de vista splash de varias imágenes. | 10:35 a 12:40 p.m.  | Ana Lorena   |
+| Ideación línea de tiempo Tim Burton's lovers e investigación para su desarrollo. | 10:35 a 12:40 p.m.  | Tahirih   |
+| Avance Readme, iniciar maquetación vista bio y creación de tablero en Trello. | 10:35 a 12:40 p.m.  | Lucero  |
+| Iniciar maquetación vista home e investigación para desarrollar slider de la forma más óptima. Preparación de encuesta de investigación  | 10:35 a 12:40 p.m.  | Patricia  |
+| Retrospectiva.  | 12:40 a 1:00 p.m.  | Todo el equipo  |
+
++ Miércoles 17 de enero de 2018
+
+| Actividad  | Tiempo | Encargadas  |
+| ---------- | ---------- | ---------- |
+| Daily | 8:00 a 8:20 a.m.  | Todo el equipo  |
+| Subir avance, desarrollo de slider (al hacer scroll), avance de vista home| 8:20 a 12:40 p.m.  | Ana Lorena   |
+| Subir avance. Desarrollo de línea de tiempo filmográfica de Tim Burton | 8:20 a 12:40 p.m.  | Tahirih   |
+| Subir avance, investigación acerca de OMDB API. Comienzo de funcionalidad de búsquedas. | 8:20 a 12:40 p.m. | Lucero  |
+| Subir avance, actualizar README e incluir resultados de encuesta.  | 8:20 a 12:40 p.m. | Patricia  |
+| Primera presentación del proyecto ante el equipo evaluador.  | 11:20 a 11:35 a.m.  | Patricia y Ana Lorena |
+| Retrospectiva.  | 12:40 a 1:00 p.m.  | Todo el equipo  |
+
++ Jueves 18 de enero de 2018
+
+| Actividad  | Tiempo | Encargadas  |
+| ---------- | ---------- | ---------- |
+| Daily | 8:00 a 8:20 a.m.  | Todo el equipo  |
+| Terminar maquetación vista home, diseño de modales, subir avance | 8:20 a 12:40 p.m. | Ana Lorena   |
+| Terminar detalles de la línea del tiempo, añadir modales conteniendo data de la API, subir avance. | 8:20 a 12:40 p.m.  | Tahirih   |
+| Subir avance, funcionalidad del input búsqueda de películas de Tim Burton. | 8:20 a 12:40 p.m.  | Lucero  |
+| Desarrollo maquetación vista bio, actualizar README, subir avance. | 8:20 a 12:40 p.m. | Patricia  |
+| Retrospectiva.  | 12:40 a 1:00 p.m.  | Todo el equipo  |
+
++ Viernes 19 de enero de 2018
+
+| Actividad  | Tiempo | Encargadas  |
+| ---------- | ---------- | ---------- |
+| Daily | 8:00 a 8:20 a.m.  | Todo el equipo  |
+| Ultimar detalles del MVP, últimos commits, coordinaciones finales. | 8:20 a 10:00 a.m.  | Todo el equipo  |
+| Presentación del mínimo producto viable ante el equipo evaluador.  | 10:00 a.m.  | Tahirih y Lucero  |
 
 ### **Producto Mínimo Viable**
 
@@ -70,9 +102,9 @@ Para validar la idea se empleó una encuesta a 25 personas para conocer preferen
 
 * Emplearemos los siguientes recursos:
 
-    1. OMDB API
+    1. The open movie database (OMDB API)
 
-    2. Bootstrap 3.3.7
+    2. Framework Bootstrap 3.3.7
 
     2. Librería de jquery
 
@@ -80,13 +112,13 @@ Para validar la idea se empleó una encuesta a 25 personas para conocer preferen
 
   ### **Desarrolladoras del Proyecto:**
 
-  * Ana Lorena Díaz
+  * Ana Lorena Díaz.
 
-  * Tahihih Jaliri
+  * Tahirih Jaliri.
 
-  * Patricia Urco
+  * Patricia Urco.
 
-  * Lucero Hospina
+  * Lucero Hospina.
 
 
 
