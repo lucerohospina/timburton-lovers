@@ -8,11 +8,11 @@ Tim Burton's Lovers es una aplicación en la que los fanáticos y seguidores de 
 
 Para validar la idea se empleó una encuesta a 25 personas para conocer preferencias de películas y director de cine favorito. A continuación se muestran los resultados:
 
-![Con titulo](assets/images/readme/director-fav.png "Vista Splash")
+![Con titulo](assets/docs/director-fav.png "Vista Splash")
 
-![Con titulo](assets/images/readme/movie-fav.png "Vista Splash")
+![Con titulo](assets/docs/movie-fav.png "Vista Splash")
 
-![Con titulo](assets/images/readme/genero-fav.png "Vista Splash")
+![Con titulo](assets/docs/genero-fav.png "Vista Splash")
 
 + De acuerdo a los resultados obtenidos, 40% de los encuestados respondieron que Tim Burton es su director favorito. Además el 56% tiene por película preferida El hombre manos de tijera, una de las más reconocidas de Tim Burton.
 
@@ -20,7 +20,7 @@ Para validar la idea se empleó una encuesta a 25 personas para conocer preferen
 
 + Para la planificación del proyecto utilizamos un  _board_ en **Trello**: [visita nuestro tablero aquí](https://trello.com/b/LPK3sIs0/flujo-de-trabajo-del-proyecto).
 
-![Con titulo](assets/images/readme/trello.png "Vista Splash")
+![Con titulo](assets/docs/trello.png "Vista Splash")
 
 #### Planificación:
 
